@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@drawable/image1">
+
+    <ImageView
+        android:id="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="80"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/image_description"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter Details "
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/name"
+        android:layout_marginTop="23dp"
+        android:text="Enter your Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#CCCCCC"
+        android:ems="10">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/address"
+        android:layout_marginTop="23dp"
+        android:text="Enter your Address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#CCCCCC"
+        android:ems="10">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/phone_number"
+        android:layout_marginTop="23dp"
+        android:text="Enter your Phone Number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#CCCCCC"
+        android:ems="10"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/date"
+        android:layout_marginTop="23dp"
+        android:text="Enter the date service is required eg : 27 August "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+
+    <EditText
+        android:id="@+id/edittext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#CCCCCC"
+        android:ems="10"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Booking" />
+
+</LinearLayout>

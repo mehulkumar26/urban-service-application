@@ -3,17 +3,17 @@
 ## Introduction
 Designed an android application which provides daily life urban services to the users like house help, plumber, haircut etc. The interface of the application is designed using recycler view.
 
-## Meathodology
+## Methodology
 
 ### Constraint Layout
-The application is using constraint layout to position and set the size of the buttons and the text view. Constraint layout, which is currently the default format in Android Studio, gives you numerous approaches to place objects. 
-
+ It simplifies creating complex layouts in Android by making it possible to build most of your UI using only the visual editor in Android Studio. It allows you to  connect all the view components to each other and place them on screen.
+ 
 ### Event Listener
-To handle events in the android studio, the studio has event listener. The event listener is present in the View Class. All the components are derived from the class and those built in class help us perform various action on the listing and recording data from the clicks on the button. 
+An event listener is an interface in the View class that contains a single callback method. These methods will be called by the Android framework when the View to which the listener has been registered is triggered by user interaction with the item in the UI. 
 
 ### Recycler View 
-RecyclerView is a listing drawing library that basically provides a fixed-size window to load a big dataset into. It is different from the other event listener as it when the view goes out of the scope of the screen or when the user moves another activity then the recycler view saves or recycle the view. When the application needs the view then it can reuse the view as it was virtually present outside the window and never got lost.
+Recycler View has a more extensible framework, especially since it provides the ability to implement both horizontal and vertical layouts. Recycler View widget is used when you have data collections whose elements change at runtime based on user action or network events.
 
 ### Fragments
-Fragments in android studio is used to set a part of the activity its own lifecycle. A fragment can be used by using FragmentActivity.  An Activity can contain multiple fragments and every segment of the activity has its own lifecycle. By which I mean it received its own input an event and those events can be removed when the activity is running and the fragments are dependent on the activity for their input event.
+A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment. Fragments introduce modularity and reusability into the activity’s UI by dividing the UI into discrete chunks. 
 

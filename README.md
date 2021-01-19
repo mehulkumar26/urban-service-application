@@ -15,5 +15,5 @@ An event listener is an interface in the View class that contains a single callb
 Recycler View has a more extensible framework, especially since it provides the ability to implement both horizontal and vertical layouts. Recycler View widget is used when you have data collections whose elements change at runtime based on user action or network events.
 
 ### Fragments
-A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment. Fragments introduce modularity and reusability into the activity’s UI by dividing the UI into discrete chunks. 
+A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own they must be hosted by an activity or another fragment. Fragments introduce modularity and reusability into the activity’s UI by dividing the UI into discrete chunks. 
 
